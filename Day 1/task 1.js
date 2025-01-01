@@ -3,10 +3,6 @@
 
 
 
-
-
-
-
 /*
 
 let x = 250 ;
@@ -22,15 +18,6 @@ console.log(calc);
 
 
 
-
-
-
-
-
-
-
-
-
 // Array Tasks : 
 // 1
 // Correct the syntax error
@@ -38,11 +25,6 @@ console.log(calc);
 //  let x = [ 1 , 7 , 9 , 45 ]
 
 //  let y =  ["Str", "alex","moh",'the','fox', 'over', "lazy", 'dog' ]
-
-
-
-
-
 
 
 
@@ -78,8 +60,6 @@ index = [0 , 1 , 2]
 
 
 
-
-
 /*
 3
 Create an array represents your:
@@ -103,12 +83,6 @@ let movie = [Inception , The_Shawshank_Redemption]
 
 
 
-
-
-
-
-
-
 /*
 4
 Create a Variable to return the first element in an array 
@@ -124,15 +98,6 @@ let x = num[0];
 let y = char[0];
 
 */
-
-
-
-
-
-
-
-
-
 
 
 
@@ -168,16 +133,6 @@ let y = char[char.length-1];
 
 
 
-
-
-
-
-
-
-
-
-
-
 /*
 6
 Using console make this array to be like this one (push, unshift, shift, pop)
@@ -196,14 +151,6 @@ console.log(arr);
 
 
 */
-
-
-
-
-
-
-
-
 
 
 
@@ -340,11 +287,7 @@ Sample Output : -4,-3,1,2,3,5,6,7,8
 // 
 // let x =0;
 // for(let i = 1; i < 9; i++){
-
 //     x = x + i +" " 
-
-//     console.log(x);
-   
-       
+//     console.log(x); 
 // }
  
