@@ -1,0 +1,30 @@
+#sty{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 40%;
+  }
+
+
+
+
+
+
+
+
+
+#haeder{
+    font-size: 50px;
+    background-color: brown;
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+    }
+    #droplist{
+      width: 30%;
+      height: 200px;
+      background-color: brown;
+      font-size: x-large;
+      display: none;
+      text-align: center;
+    }

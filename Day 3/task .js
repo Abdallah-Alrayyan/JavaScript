@@ -39,15 +39,15 @@
 // */
 
 
-// function calculateDogAge(params) {
+function calculateDogAge(params) {
 
-//     let x  = params * 7
+    let x  = params * 7
 
-//     document.write(`Your doggie is ${x} years old in dog years!`)
+    document.write(`Your doggie is ${x} years old in dog years!`)
     
-// }
+}
 
-// calculateDogAge(1)
+calculateDogAge(1)
 
 
 

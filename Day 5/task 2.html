@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back to Top</title>
+</head>
+<style>
+    #div1 {
+        width: 100vw;
+        height: 40vw;
+        background: linear-gradient(to bottom, #b3d5e8 50%, #7098c6 60%);
+    }
+
+    #div2 {
+        width: 100vw;
+        height: 40vw;
+        background: linear-gradient(to bottom, #636da8 50%, #425991 60%);
+    }
+
+    #div3 {
+        width: 100vw;
+        height: 40vw;
+        background: linear-gradient(to bottom, #443b7d 50%, #2e3d85 60%);
+    }
+
+    #div4 {
+        width: 100vw;
+        height: 40vw;
+        background: linear-gradient(to bottom, #192286 50%, #061dce84 60%);
+    }
+
+    #div5 {
+        width: 100vw;
+        height: 40vw;
+        background: linear-gradient(to bottom, #FBE4D8 50%, #FBE4D8 60%);
+    }
+
+    #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 2vw;
+        right: 2vw;
+        font-size: 1vw;
+        border: 0.2vw solid #3b146e;
+        background-color: #bce9bc;
+        color: #3b146e;
+        cursor: pointer;
+        padding: 1vw;
+        border-radius: 0.6vw;
+    }
+</style>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <div id="div1"></div>
+    <div id="div2"></div>
+    <div id="div3"></div>
+    <div id="div4"></div>
+    <div id="div5 "></div>
+
+    <script>
+        let myBtn = document.getElementById("myBtn");
+
+        window.onscroll = function () {
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                myBtn.style.display = "block";
+            } else {
+                myBtn.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>
